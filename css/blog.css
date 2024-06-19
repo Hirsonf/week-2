@@ -1,0 +1,255 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: auto;
+    align-items: center;
+
+}
+
+.navbar {
+    background-color: rgb(238, 238, 238);
+    /* height: 40px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar .navbar-container .logo {
+    width: 48px;
+    height: 48px;
+}
+
+.navbar .navbar-container .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar .content-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar .content-navbar .btn-contact.a {
+    text-decoration: none;
+    background-color: #000;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    padding-left: 16px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.navbar .navbar-container {
+    display: flex;
+    justify-content: start;
+    align-content: center;
+}
+
+.navbar .content-navbar ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.navbar .content-navbar ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.navbar .content-navbar ul li a:hover {
+    font-weight: 800;
+    border-bottom: 1px solid #000;
+}
+
+.navbar .content-navbar ul li a:focus {
+    font-weight: 800;
+    border-bottom: 1px solid #000;
+}
+
+.navbar .content-navbar ul li .active {
+    font-weight: 800;
+    border-bottom: 1px solid #000;
+}
+
+.form-input {
+    padding-left: 25%;
+    padding-top: 35px;
+}
+
+.container-form {
+    font-size: 20px;
+}
+
+.name {
+    font-size: 15px;
+    padding-top: 30px;
+    padding-top: 10px;
+}
+
+#input-contact {
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 60%;
+    height: 25px;
+}
+
+.input-contact {
+    width: 61%;
+    padding: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-width: 3px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    padding-left: 12px;
+    resize: none;
+    color: #000;
+}
+
+.input-contact-YourMessage {
+    width: 60%;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.submit-contact {
+    background-color: #ff4500;
+    color: #fff;
+    padding: 8px;
+    width: 100px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+.blog .container-card {
+    margin-top: 40px;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog .blog-list .container-card {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(238, 238, 238);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    background-color: aqua;
+}
+
+.blog .blog-list .container-card .container-image {
+    flex: 1;
+}
+
+.blog .blog-list .container-card .container-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.blog .blog-list .container-card .container-content {
+    padding-left: 20px;
+    flex: 2;
+}
+
+.container-content {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container-content h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container-content p {
+    margin: 0;
+}
+
+.duration {
+    color: gray;
+    font-size: 14px;
+}
+
+.technologies {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.technologies .left-tech,
+.technologies .right-tech {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.btn-edit,
+.btn-delete {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.btn-edit {
+    background-color: #000000;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #0b0b0b;
+    color: white;
+}
+
+.container-p {
+    justify-content: center;
+    text-align: center;
+    max-width: 100px;
+}
+

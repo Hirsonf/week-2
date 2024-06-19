@@ -1,0 +1,68 @@
+.form-input{
+    padding-left: 25%;
+    padding-top: 35px;
+}
+.container-form{
+    font-size: 20px;
+}
+.name{
+    font-size: 15px;
+    padding-top: 30px;
+    padding-top: 10px;
+}
+#input-contact{
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 60%;
+    height: 25px;
+}
+.input-contact{
+    width: 61%;
+    padding: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-width: 3px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    padding-left: 12px;
+    resize: none;
+    color: #000;
+}
+
+.input-contact-YourMessage{
+    width: 60%;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.submit-contact{
+    background-color: #ff4500;
+    color: #fff;
+    padding: 8px;
+    width: 100px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.label-contact{
+    font-size: 15px;
+    font-weight: bold;
+}
+.input-contct{
+    padding: 15px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 10px;
+
+}

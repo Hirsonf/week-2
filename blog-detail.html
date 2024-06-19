@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<head lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="https://cdnjs.com/libraries/font-awesome/4.7.0"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/FontAwesome.otf"/>
+    </head>
+
+<body>
+    <nav id="navbar_id" class="navbar">
+        <div class="container">
+            <div class="navbar-container">
+                <div class="logo">
+                    <img src="./image/img_2.png" />
+                </div>
+                <div class="content-navbar">
+                    <ul>
+                        <li class="nav-link nav-collapse">
+                            <a href="./index.html" class="active">Home</a>
+                        </li>
+                        <li class="nav-link nav-collapse">
+                            <a href="./blog.html"> Blog</a>
+                        </li>
+                        <li class="nav-link nav-collapse">
+                            <a href="./blog-detail.html" class="active"> Blog detail</a>
+                        </li>
+                    </ul>
+
+                    <div class="btn-contact">
+                        <a href="contact.html" class="btn-contact nav-collapse">Contact Me</a>
+                        <i class="fa fa-bars" aria-hidden="true" style="cursor: pointer;" id="humberger-button" onclick="openHumberger()"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="humberger-nav-container" id="humberger-nav-container">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html" class="active1">Contact Me</a>
+    </div>
+    <div class="profile">
+        <div class="container">
+            <div class="introduction">
+                <h1>Hi welcome to my hut</h1>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam dolores ducimus quod ut cupiditate maiores
+                    numquam quas doloribus perspiciatis officiis, nemo magnam similique error voluptates molestiae repudiandae
+                    iusto dolorum quasi?
+                </p>
+                <div class="share_contact">
+                    <a href="#" class="btn-primary">Contact</a>
+                    <a href="#" class="download">
+                        <span>Download CV</span>
+                        <img src="../day_6/image/icon_download.svg"/>
+                    </a>
+                </div>
+            </div>
+            <div class="sosial-media">
+                <div class="item">
+                    <a href="#">
+                        <img src="../day_6/image/ic_discord.svg"/>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="../day_6/image/ic_gmail.svg"/>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="../day_6/image/ic_telegram.svg"/>
+                    </a>
+                </div>
+            </div>
+            <div class="card-photo">
+                <div class="card-item">
+                    <img src="../day_6/image/img_1.jpg" />
+                    <div class="descrition">
+                        <h3>Muhammad Hirson</h3>
+                        <span>Fullstack Develover</span>
+                    </div>
+                </div>
+            </div> 
+        </div> 
+    </div>
+    <script src="./assests/js/nav.js"></script>
+</body>
+</head>
+
+</html>
